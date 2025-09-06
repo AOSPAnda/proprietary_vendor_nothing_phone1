@@ -242,6 +242,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     relative_install_path: "hw",
     prefer: true,
+    overrides: [
+        "audio.primary.lahaina",
+    ],
     soc_specific: true,
 }
 
@@ -789,6 +792,9 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "both",
     prefer: true,
+    overrides: [
+        "liba2dpoffload",
+    ],
     soc_specific: true,
 }
 
@@ -2942,6 +2948,9 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "both",
     prefer: true,
+    overrides: [
+        "libssrec",
+    ],
     soc_specific: true,
 }
 
@@ -20358,6 +20367,9 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    overrides: [
+        "cnss-daemon",
+    ],
     soc_specific: true,
 }
 
@@ -20573,6 +20585,9 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    overrides: [
+        "hvdcp_opti",
+    ],
     soc_specific: true,
 }
 
